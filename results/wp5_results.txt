@@ -1,0 +1,12 @@
+WP5 : importance sous LOSO (Delta RMSE 2D en m, remplacement par station donneuse)
+feature                dRMSE moy         IC boot 95%
+canopy_cover              +0.204   [-0.074, +0.491]
+elevation                 -0.084   [-0.195, +0.020]
+skyview                   +0.045   [-0.182, +0.278]
+slope                     +0.172   [-0.053, +0.407]
+tri                       +0.406   [+0.067, +0.734]
+hdop                      -0.009   [-0.044, +0.022]
+number_satellites         +0.012   [+0.003, +0.023]
+horizontal_accuracy       +0.015   [-0.126, +0.147]
+_asp                      -0.142   [-0.313, +0.011]
+Temps : 1351s

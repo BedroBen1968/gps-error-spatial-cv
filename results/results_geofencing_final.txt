@@ -1,0 +1,10 @@
+GEOFENCING FINAL : % violations par approche x geometrie
+
+approche               Convex-hull pasture 15 m micro- enclosure           +5 m buffer          +10 m buffer
+Raw                                10.926%                0.673%                0.094%                0.059%
+Oracle (dGPS)                       0.000%                0.000%                0.000%                0.000%
+ML naive (5-fold)                  14.706%                0.189%                0.059%                0.035%
+ML spatial (LOSO)                   9.402%                1.854%                0.390%                0.083%
+Station-mean                       14.470%                0.165%                0.059%                0.035%
+
+VERIF: naive -72% vs raw (15 m) ; LOSO x2.75 vs raw (15 m)

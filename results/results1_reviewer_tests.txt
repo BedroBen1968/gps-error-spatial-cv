@@ -1,0 +1,17 @@
+[PERMUTATIONS_10K] R2 observe: -0.0817
+  Progression 1000/10000, elapsed 1876s
+  Progression 2000/10000, elapsed 3738s
+  Progression 3000/10000, elapsed 5583s
+  Progression 4000/10000, elapsed 7430s
+  Progression 5000/10000, elapsed 9333s
+  Progression 6000/10000, elapsed 11189s
+  Progression 7000/10000, elapsed 13043s
+  Progression 8000/10000, elapsed 14898s
+  Progression 9000/10000, elapsed 16753s
+  Progression 10000/10000, elapsed 18607s
+[PERMUTATIONS_10K RESULTATS]
+R2 observe: -0.0817
+p-value (10000 permutations): 0.99390
+R2 median sous H0: -0.0353
+Temps total: 18607s
+

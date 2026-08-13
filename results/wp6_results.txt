@@ -1,0 +1,11 @@
+WP6 : buffer adaptatif (classes open/closed du design original) vs uniforme
+s_h : open P90=6.45 P95=7.61 m | closed P90=10.24 P95=11.98 m
+
+strategie                       W_open W_closed  viol.%  aire x
+uniforme +0 m                     0.00     0.00  0.673%    1.00
+uniforme +5 m                     5.00     5.00  0.094%    1.78
+uniforme +10 m                   10.00    10.00  0.059%    2.78
+adaptatif z=1.0 x P90             6.45    10.24  0.059%    2.40
+adaptatif z=1.0 x P95             7.61    11.98  0.059%    2.71
+adaptatif z=1.5 x P95            11.42    17.97  0.035%    3.89
+uniforme +8.24 m (aire=P90)       8.24     8.24  0.071%    2.40

@@ -1,0 +1,8 @@
+RECONCILIATION PERMUTATION PAR BLOCS-STATIONS : EFFET DU NOMBRE DE FEATURES
+Null : re-appariement aleatoire des stations d'entrainement,
+re-echantillonnage avec remise dans la station donneuse.
+======================================================================
+A_5env               n= 5  R2=-0.0817  p=0.1329  H0_med=-0.3095
+B_5env+aspect        n= 9  R2=+0.0014  p=0.0559  H0_med=-0.3178
+C_5env+aspect+tel    n=11  R2=-0.0116  p=0.0549  H0_med=-0.3339
+D_all9               n=12  R2=+0.0379  p=0.0280  H0_med=-0.3386

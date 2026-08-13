@@ -1,0 +1,8 @@
+FORMULATIONS ALTERNATIVES SOUS LOSO (RF 50 arbres) : reduction RMSE vs train-mean
+formulation                                red.%       R2   RMSE_m   RMSE_b
+(i) Error magnitude                        +1.53   +0.011    3.137    3.186
+(ii) Log-magnitude                         +4.57   +0.069    0.515    0.540
+(iii) Precision (environment-only)         +1.94   +0.025    2.512    2.562
+(iv) Precision (+ self-estimate)           +9.06   +0.162    2.330    2.562
+(v) Aspect-canopy group means              -0.72   -0.086    1.171    1.162
+(vi) Circular direction : angular error 87.9 deg (model) vs 68.0 deg (aspect-mean baseline) vs 90 deg (chance) ; reported separately

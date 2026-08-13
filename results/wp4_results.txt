@@ -1,0 +1,32 @@
+WP4a : Moran's I, ponderation par bandes de distance (test par permutation, 999)
+  bande    0-500  m ( 75 paires) East  I=+0.001 (E[I]=-0.034) p=0.789
+  bande    0-500  m ( 75 paires) North I=-0.058 (E[I]=-0.034) p=0.834
+  bande    0-1000 m (195 paires) East  I=-0.001 (E[I]=-0.034) p=0.441
+  bande    0-1000 m (195 paires) North I=-0.023 (E[I]=-0.034) p=0.817
+  bande    0-1500 m (337 paires) East  I=+0.020 (E[I]=-0.034) p=0.030
+  bande    0-1500 m (337 paires) North I=-0.013 (E[I]=-0.034) p=0.318
+  bande    0-2000 m (417 paires) East  I=-0.024 (E[I]=-0.034) p=0.246
+  bande    0-2000 m (417 paires) North I=-0.027 (E[I]=-0.034) p=0.315
+  bande  500-1500 m (262 paires) East  I=+0.025 (E[I]=-0.034) p=0.108
+  bande  500-1500 m (262 paires) North I=-0.000 (E[I]=-0.034) p=0.284
+WP4a bis : ponderation inverse-distance (toutes paires)
+  inv-dist East  I=-0.008 (E[I]=-0.034) p=0.407
+  inv-dist North I=-0.035 (E[I]=-0.034) p=0.998
+
+WP4b : semivariance empirique directionnelle (2 secteurs, bootstrap 1000)
+  East  EO lag     0-700 m (59 paires) gamma=   6.10 IC95=[2.94,10.37]
+  East  EO lag  700-1400 m (96 paires) gamma=   5.53 IC95=[3.03,8.99]
+  East  EO lag 1400-2100 m (61 paires) gamma=   4.51 IC95=[2.08,7.67]
+  East  EO lag 2100-3000 m ( 9 paires) gamma=   3.54 IC95=[1.53,5.90]
+  East  NS lag     0-700 m (57 paires) gamma=   6.34 IC95=[3.00,10.68]
+  East  NS lag  700-1400 m (101 paires) gamma=   7.09 IC95=[3.98,11.46]
+  East  NS lag 1400-2100 m (48 paires) gamma=  11.25 IC95=[3.03,22.27]
+  East  NS lag 2100-3000 m ( 4 paires) gamma=insuffisant
+  North EO lag     0-700 m (59 paires) gamma=   6.23 IC95=[2.51,10.64]
+  North EO lag  700-1400 m (96 paires) gamma=   6.49 IC95=[2.89,11.20]
+  North EO lag 1400-2100 m (61 paires) gamma=  11.49 IC95=[2.74,25.89]
+  North EO lag 2100-3000 m ( 9 paires) gamma=  18.65 IC95=[2.45,39.40]
+  North NS lag     0-700 m (57 paires) gamma=   6.48 IC95=[2.67,15.10]
+  North NS lag  700-1400 m (101 paires) gamma=   4.54 IC95=[2.04,7.76]
+  North NS lag 1400-2100 m (48 paires) gamma=   4.46 IC95=[2.18,7.63]
+  North NS lag 2100-3000 m ( 4 paires) gamma=insuffisant

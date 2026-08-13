@@ -1,0 +1,15 @@
+WP1 : IC bootstrap 95% (re-echantillonnage des 30 stations, B=10000)
+R2_East_LOSO    obs=-0.402   IC95=[-0.857, -0.085]
+R2_North_LOSO   obs=-0.402   IC95=[-0.693, -0.163]
+RMSE_model      obs=+6.510   IC95=[+5.508, +7.550]
+RMSE_baseline   obs=+5.578   IC95=[+4.893, +6.253]
+eta2_East       obs=+0.480   IC95=[+0.331, +0.602]
+eta2_North      obs=+0.370   IC95=[+0.222, +0.476]
+
+WP2 : distribution des R2 observes sur 50 partitions 20/10
+cfg      moy     med     sd      q5     q95   %>0
+A     -0.038  +0.029  0.216  -0.317  +0.146   58%
+B     -0.059  +0.017  0.243  -0.421  +0.163   54%
+C     -0.111  +0.009  0.317  -0.566  +0.149   52%
+D     +0.112  +0.123  0.117  -0.112  +0.251   82%
+Temps total : 1123s
