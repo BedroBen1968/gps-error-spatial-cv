@@ -1,4 +1,4 @@
-LOAO (4 folds aspect), recalcul traçable :
+LOAO (4 folds aspect), recalcul traÃ§able :
   RMSE modele   : 5.97 +/- 2.55 m
   RMSE brut     : 5.26 +/- 1.92 m
   RMSE baseline : 5.31 +/- 1.85 m
