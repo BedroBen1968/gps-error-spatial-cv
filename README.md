@@ -1,6 +1,7 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21915955.svg)](https://doi.org/10.5281/zenodo.21915955)
 # Spatial Cross-Validation Reveals a Predictive Ceiling for Environmental Correction of GPS Error in Virtual-Fencing Collars — Analysis Code
 
-Companion repository for [AUTHORS] (submitted to GPS Solutions). Every statistic, table, and figure in the paper is traceable to a script in this repository.
+Companion repository for [Benaissa] (submitted to GPS Solutions). Every statistic, table, and figure in the paper is traceable to a script in this repository.
 
 ## Data
 
@@ -50,6 +51,8 @@ Input data are the public NoFence collar datasets of Versluijs et al. (2024), Da
 
 Figures 1-3 are schematic diagrams produced in a vector editor; their content is fully specified by their captions.
 
+## Exploratory
+The exploratory/ folder contains earlier exploratory analyses retained for transparency; their outputs are superseded by the scripts above and are not cited in the paper
 ## Requirements
 
 Python 3.8+; numpy, pandas, scikit-learn, scipy, matplotlib, scikit-gstat, pykrige. GLMM reproduction and circular statistics additionally use R (glmmTMB, circular), following the original pipeline of Versluijs et al. (2024).
