@@ -1,0 +1,5 @@
+LOAO (4 folds aspect), recalcul traçable :
+  RMSE modele   : 5.97 +/- 2.55 m
+  RMSE brut     : 5.26 +/- 1.92 m
+  RMSE baseline : 5.31 +/- 1.85 m
+  R2 pooled     : East -0.388 / North -0.390
